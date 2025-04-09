@@ -1,0 +1,28 @@
+{
+  "name": "obsidian-mono-light-high-contrast-theme",
+  "version": "1.0.0",
+  "description": "A light high contrast theme for Obsidian",
+  "author": "Manuel Coca",
+  "authorUrl": "https://github.com/manuelcoca",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/manuelcoca/obsidian-mono-light-high-contrast-theme.git"
+  },
+  "keywords": [
+    "obsidian",
+    "theme",
+    "light",
+    "high-contrast",
+    "monospace"
+  ],
+  "main": "theme.css",
+  "scripts": {
+    "dev": "node version-bump.mjs dev && node esbuild.config.mjs",
+    "build": "node version-bump.mjs build && node esbuild.config.mjs",
+    "version": "node version-bump.mjs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.19.0"
+  }
+}
