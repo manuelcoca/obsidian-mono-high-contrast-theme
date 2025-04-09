@@ -1,17 +1,16 @@
 {
-  "name": "obsidian-mono-light-high-contrast-theme",
+  "name": "obsidian-mono-high-contrast-theme",
   "version": "1.0.0",
-  "description": "A light high contrast theme for Obsidian",
+  "description": "A high contrast theme for Obsidian",
   "author": "Manuel Coca",
   "authorUrl": "https://github.com/manuelcoca",
   "repository": {
     "type": "git",
-    "url": "https://github.com/manuelcoca/obsidian-mono-light-high-contrast-theme.git"
+    "url": "https://github.com/manuelcoca/obsidian-mono-high-contrast-theme"
   },
   "keywords": [
     "obsidian",
     "theme",
-    "light",
     "high-contrast",
     "monospace"
   ],
