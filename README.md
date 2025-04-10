@@ -1,4 +1,4 @@
-# Obsidian Mono High Contrast Theme
+# Mono High Contrast Theme
 
 A high contrast theme for Obsidian, inspired by VS Code's default high contrast theme.
 
