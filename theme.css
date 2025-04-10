@@ -127,12 +127,7 @@
 
 /* Fonts */
 body {
-  --font-monospace: "Sono", monospace;
-  --font-interface: var(--font-monospace);
-  --font-text: var(--font-monospace);
-  --font-editor: var(--font-monospace);
-  --font-preview: var(--font-monospace);
-  font-family: var(--font-monospace);
+  --font-interface: "FuraMono Nerd Font", monospace;
   -webkit-font-smoothing: auto;
 }
 
