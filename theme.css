@@ -160,51 +160,6 @@ b,
   padding-bottom: 0.3em;
 }
 
-/* Borders and dividers */
-.workspace-split,
-.workspace-tabs,
-.workspace-leaf,
-.mod-left-split,
-.mod-root,
-.side-dock-ribbon,
-.workspace-ribbon,
-.view-header,
-.workspace-tab-container,
-.workspace-tab-header-container {
-  border: none !important;
-}
-
-.workspace-ribbon.mod-left {
-  border-right: 1px solid var(--background-modifier-border) !important;
-}
-
-.workspace-leaf-resize-handle {
-  background-color: var(--background-modifier-border);
-  width: 1px !important;
-}
-
-.workspace-split.mod-root
-  > .workspace-leaf:first-of-type:last-of-type
-  .view-header {
-  border-bottom: 1px solid var(--background-modifier-border);
-}
-
-.status-bar {
-  border-top: 1px solid var(--background-modifier-border) !important;
-}
-
-.workspace-tab-header-container {
-  border-bottom: 1px solid var(--background-modifier-border) !important;
-}
-
-.workspace-split.mod-horizontal > * {
-  border-bottom: none !important;
-}
-
-.workspace-split.mod-horizontal > *:not(:last-child) {
-  border-bottom: 1px solid var(--background-modifier-border) !important;
-}
-
 /* Links */
 a,
 .markdown-preview-view .internal-link {
@@ -230,21 +185,21 @@ a:hover,
 
 /* Blockquotes */
 blockquote {
-  border-left: 1px solid var(--background-modifier-border);
+  border-left: 0.5px solid var(--background-modifier-border);
   margin: 1em 0;
   padding: 0 1em;
 }
 
 /* Tables */
 .markdown-rendered table {
-  border: 1px solid var(--background-modifier-border);
+  border: 0.5px solid var(--background-modifier-border);
   border-collapse: collapse;
   font-size: 0.9em;
 }
 
 .markdown-rendered th,
 .markdown-rendered td {
-  border: 1px solid var(--background-modifier-border);
+  border: 0.5px solid var(--background-modifier-border);
   padding: 6px 13px;
   font-size: 0.9em;
 }
@@ -290,7 +245,7 @@ button:hover {
 .tooltip {
   background-color: var(--background-secondary);
   color: var(--text-normal);
-  border: 1px solid var(--background-modifier-border);
+  border: 0.5px solid var(--background-modifier-border);
 }
 
 /* Highlight styles */
